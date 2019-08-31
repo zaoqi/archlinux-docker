@@ -1,2 +1,2 @@
 FROM archlinux/base
-RUN pacman -Syu --noconfirm
+RUN pacman -Syu --noconfirm && pacman -Scc --noconfirm
